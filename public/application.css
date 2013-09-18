@@ -2,4 +2,53 @@ body {
     background-color: #f3f6f9;
     font-family: helvetica;
     font-weight: lighter;
+    margin: 0;
+    color: #444;
+}
+
+/* ==================== SUBMIT ==================== */
+
+h1 {
+    margin: 20px;
+}
+
+form {
+    margin: 20px;
+}
+
+input {
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px 0;
+}
+
+/* ==================== COMPARE ==================== */
+
+dl {
+    float: left;
+    width: 46%;
+    margin: 2%;
+}
+
+dt, dd {
+    border: 1px solid #444;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+dt {
+    border-radius: 5px 5px 0 0;
+    background-color: #444;
+    color: white;
+}
+
+dd {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    margin: 0 0 20px 0;
 }

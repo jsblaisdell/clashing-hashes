@@ -6,10 +6,16 @@
     <link rel="stylesheet" href="application.css" type="text/css" />
 </head>
 <body>
-    <p>Your form has been submitted.</p>
-    <ul>
-        <li><%= "#{@first}" %></li>
-        <li><%= "#{@second}" %></li>
-    </ul>
+    <dl>
+        <dt><%= "#{@first}" %></dt>
+        <dd>Tweets: <span>1000</span></dd>
+    </dl>
+    <dl>
+        <dt><%= "#{@second}" %></dt>
+        <dd>Tweets: <span>1000</span></dd>
+    </dl>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
