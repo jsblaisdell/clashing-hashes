@@ -2,16 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Clashing Hashes</title>
     <link rel="stylesheet" href="application.css" type="text/css" />
 </head>
 <body>
-    <h1>My name is <%= @name %></h1>
-    <% if @show_description %>
-        <p>This is my description</p>
-    <% end %>
+    <form action="/twitter" method="post">
+        <input type="text" name="first_hash" class="form-hashtag">
+        <input type="text" name="second_hash" class="form-hashtag">
+        <input type="submit" class="form-submit" value="compare">
+    </form>
 </body>
 </html>
-
-
-
