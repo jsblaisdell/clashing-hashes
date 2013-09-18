@@ -5,6 +5,6 @@ require 'sinatra/reloader'
 
 get '/' do
   @name = "Justin"
-  # "<h1>hello #{name}</h1>"
+  @show_description = true
   erb :index
 end
