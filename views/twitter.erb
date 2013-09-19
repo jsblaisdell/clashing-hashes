@@ -14,6 +14,10 @@
         <dt><%= "#{@second}" %></dt>
         <dd>Tweets: <span>1000</span></dd>
     </dl>
+    <% @tweets.each do | t | %>
+        <p><%= t.author %></p>
+        <p><%= t.status %></p>
+    <% end %>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="scripts.js"></script>
